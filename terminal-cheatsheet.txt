@@ -1,0 +1,8 @@
+cd change directory --> 
+cd .. --> visszalép eggyel feljebb
+cd myfolder --> myfolder-be vált (első betű + Tab --> kiegészíti)
+felfele nyíl -- visszahoz régebbi parancsokat
+cd lehet ezeket láncolni
+mkdir make directory --> mkdir development --> létrehoz development mappát(mappa nevekbe ne legyen space)
+ni new item --> ni file-name.extension (ne legyen benne szóköz)
+ls --> listázza working directory tartalmat (-Force --> mutat rejtett file-tartalmat)
