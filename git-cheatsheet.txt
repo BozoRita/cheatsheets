@@ -1,1 +1,10 @@
-git init-tel kezdem verziókövetni mappát
+git status -- megnézem, hogy van-e verziókövetve (ha fatal, akkor jó, akkor még nincs verziókövetve)
+git init-tel kezdem verziókövetni mappát (ha utána beírom git status-t akkor nem fatal)
+git add . --> minden változtatást hozzáad 
+git commit -m "commit message" --> itt nevezem el verziót, hogy miért jó nekünk
+-------------------------------------- (eddig lokális)
+git remote --> megnézi h van-e felhőben repository, amihez hozzá van push-olva
+(github-on csinálunk üres repository) --> látom url-t
+git remote add "origin" url (hol lesz repository)
+git remote --> kiírja, hogy mi tartozik hozzá, melyik repository
+git push (hibát ír ki, bemásoljuk sort -- git push --set-upstream origin master)
